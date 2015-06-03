@@ -13,6 +13,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksDiorite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksDolomite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksGabbro;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksGneiss;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksGranite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneAndesite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneBasalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneChalk;
@@ -24,6 +25,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneDiorite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneDolomite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneGabbro;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneGneiss;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneGranite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilAnalyzer;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilOre;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneAndesite;
@@ -37,6 +39,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneDiorite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneDolomite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneGabbro;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneGneiss;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneGranite;
 import com.github.connorlobb.AdvancedGeology.help.RegisterHelper;
 
 public class ModBlocks {
@@ -54,6 +57,7 @@ public class ModBlocks {
 	public static Block stoneDolomite = new BlockStoneDolomite();
 	public static Block stoneGabbro = new BlockStoneGabbro();
 	public static Block stoneGneiss = new BlockStoneGneiss();
+	public static Block stoneGranite = new BlockStoneGranite();
 	public static Block cobblestoneAndesite = new BlockCobblestoneAndesite();
 	public static Block cobblestoneBasalt = new BlockCobblestoneBasalt();
 	public static Block cobblestoneChalk = new BlockCobblestoneChalk();
@@ -65,6 +69,7 @@ public class ModBlocks {
 	public static Block cobblestoneDolomite = new BlockCobblestoneDolomite();
 	public static Block cobblestoneGabbro = new BlockCobblestoneGabbro();
 	public static Block cobblestoneGneiss = new BlockCobblestoneGneiss();
+	public static Block cobblestoneGranite = new BlockCobblestoneGranite();
 	public static Block bricksAndesite = new BlockBricksAndesite();
 	public static Block bricksBasalt = new BlockBricksBasalt();
 	public static Block bricksChalk = new BlockBricksChalk();
@@ -76,6 +81,7 @@ public class ModBlocks {
 	public static Block bricksDolomite = new BlockBricksDolomite();
 	public static Block bricksGabbro = new BlockBricksGabbro();
 	public static Block bricksGneiss = new BlockBricksGneiss();
+	public static Block bricksGranite = new BlockBricksGranite();
 	public static void init()
 	{
 		//Creates block's technical name
@@ -92,6 +98,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(stoneDolomite);
 		RegisterHelper.registerBlock(stoneGabbro);
 		RegisterHelper.registerBlock(stoneGneiss);
+		RegisterHelper.registerBlock(stoneGranite);
 		RegisterHelper.registerBlock(cobblestoneAndesite);
 		RegisterHelper.registerBlock(cobblestoneBasalt);
 		RegisterHelper.registerBlock(cobblestoneChalk);
@@ -103,6 +110,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(cobblestoneDolomite);
 		RegisterHelper.registerBlock(cobblestoneGabbro);
 		RegisterHelper.registerBlock(cobblestoneGneiss);
+		RegisterHelper.registerBlock(cobblestoneGranite);
 		RegisterHelper.registerBlock(bricksAndesite);
 		RegisterHelper.registerBlock(bricksBasalt);
 		RegisterHelper.registerBlock(bricksChalk);
@@ -114,5 +122,6 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(bricksDolomite);
 		RegisterHelper.registerBlock(bricksGabbro);
 		RegisterHelper.registerBlock(bricksGneiss);
+		RegisterHelper.registerBlock(bricksGranite);
 	}
 }
