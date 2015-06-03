@@ -39,13 +39,24 @@ public class AdvancedGeologyWorldGeneration implements IWorldGenerator {
 		addOreSpawn(ModBlocks.stoneClaystone, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
 		addOreSpawn(ModBlocks.stoneConglomerate, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
 		addOreSpawn(ModBlocks.stoneDolomite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
+		//Limestone
+		//Rock Salt
+		//Shale
 		//Metamorphic
+		addOreSpawn(ModBlocks.stoneGneiss, world, random, x, z, 16, 16, 40 + random.nextInt(20), 15, 30, 128);
+		//Marble
+		//Phyllite
+		//Quartzite
+		//Schist
+		//Slate
 		//Igneous
 		addOreSpawn(ModBlocks.stoneAndesite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
 		addOreSpawn(ModBlocks.stoneBasalt, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
 		addOreSpawn(ModBlocks.stoneDacite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
 		addOreSpawn(ModBlocks.stoneDiorite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
 		addOreSpawn(ModBlocks.stoneGabbro, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
+		//Granite
+		//Rhyolite
 		//Vanilla Stuff
 		addOreSpawn(Blocks.coal_ore, world, random, x, z, 16, 16, 10 + random.nextInt(10), 15, 1, 128);
 		addOreSpawn(Blocks.diamond_ore, world, random, x, z, 16, 16, 3 + random.nextInt(5), 1, 1, 16);
