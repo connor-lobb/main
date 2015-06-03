@@ -1,0 +1,1 @@
+This is a github repository for my grade 12 computer engineering project. I am making a mod for Minecraft 1.7.10 called "Advanced Geology", which expands upon the game's petrology and minerology concepts and adds a new concept of paleontology. 
