@@ -16,6 +16,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksGneiss;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksGranite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksLimestone;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksMarble;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksPhyllite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneAndesite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneBasalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneChalk;
@@ -30,6 +31,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneGneiss;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneGranite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneLimestone;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneMarble;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestonePhyllite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilAnalyzer;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilOre;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneAndesite;
@@ -46,6 +48,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneGneiss;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneGranite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneLimestone;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneMarble;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockStonePhyllite;
 import com.github.connorlobb.AdvancedGeology.help.RegisterHelper;
 
 public class ModBlocks {
@@ -66,6 +69,7 @@ public class ModBlocks {
 	public static Block stoneGranite = new BlockStoneGranite();
 	public static Block stoneLimestone = new BlockStoneLimestone();
 	public static Block stoneMarble = new BlockStoneMarble();
+	public static Block stonePhyllite = new BlockStonePhyllite();
 	public static Block cobblestoneAndesite = new BlockCobblestoneAndesite();
 	public static Block cobblestoneBasalt = new BlockCobblestoneBasalt();
 	public static Block cobblestoneChalk = new BlockCobblestoneChalk();
@@ -80,6 +84,7 @@ public class ModBlocks {
 	public static Block cobblestoneGranite = new BlockCobblestoneGranite();
 	public static Block cobblestoneLimestone = new BlockCobblestoneLimestone();
 	public static Block cobblestoneMarble = new BlockCobblestoneMarble();
+	public static Block cobblestonePhyllite = new BlockCobblestonePhyllite();
 	public static Block bricksAndesite = new BlockBricksAndesite();
 	public static Block bricksBasalt = new BlockBricksBasalt();
 	public static Block bricksChalk = new BlockBricksChalk();
@@ -94,6 +99,7 @@ public class ModBlocks {
 	public static Block bricksGranite = new BlockBricksGranite();
 	public static Block bricksLimestone = new BlockBricksLimestone();
 	public static Block bricksMarble = new BlockBricksMarble();
+	public static Block bricksPhyllite = new BlockBricksPhyllite();
 	public static void init()
 	{
 		//Creates block's technical name
@@ -113,6 +119,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(stoneGranite);
 		RegisterHelper.registerBlock(stoneLimestone);
 		RegisterHelper.registerBlock(stoneMarble);
+		RegisterHelper.registerBlock(stonePhyllite);
 		RegisterHelper.registerBlock(cobblestoneAndesite);
 		RegisterHelper.registerBlock(cobblestoneBasalt);
 		RegisterHelper.registerBlock(cobblestoneChalk);
@@ -127,6 +134,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(cobblestoneGranite);
 		RegisterHelper.registerBlock(cobblestoneLimestone);
 		RegisterHelper.registerBlock(cobblestoneMarble);
+		RegisterHelper.registerBlock(cobblestonePhyllite);
 		RegisterHelper.registerBlock(bricksAndesite);
 		RegisterHelper.registerBlock(bricksBasalt);
 		RegisterHelper.registerBlock(bricksChalk);
@@ -141,5 +149,6 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(bricksGranite);
 		RegisterHelper.registerBlock(bricksLimestone);
 		RegisterHelper.registerBlock(bricksMarble);
+		RegisterHelper.registerBlock(bricksPhyllite);
 	}
 }
