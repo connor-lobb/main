@@ -20,6 +20,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksPhyllite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksQuartzite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksRhyolite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksRockSalt;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksSchist;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneAndesite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneBasalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneChalk;
@@ -38,6 +39,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestonePhyllite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneQuartzite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneRhyolite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneRockSalt;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneSchist;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilAnalyzer;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilOre;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneAndesite;
@@ -58,6 +60,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockStonePhyllite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneQuartzite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneRhyolite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneRockSalt;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneSchist;
 import com.github.connorlobb.AdvancedGeology.help.RegisterHelper;
 
 public class ModBlocks {
@@ -82,6 +85,7 @@ public class ModBlocks {
 	public static Block stoneQuartzite = new BlockStoneQuartzite();
 	public static Block stoneRhyolite = new BlockStoneRhyolite();
 	public static Block stoneRockSalt = new BlockStoneRockSalt();
+	public static Block stoneSchist = new BlockStoneSchist();
 	public static Block cobblestoneAndesite = new BlockCobblestoneAndesite();
 	public static Block cobblestoneBasalt = new BlockCobblestoneBasalt();
 	public static Block cobblestoneChalk = new BlockCobblestoneChalk();
@@ -100,6 +104,7 @@ public class ModBlocks {
 	public static Block cobblestoneQuartzite = new BlockCobblestoneQuartzite();
 	public static Block cobblestoneRhyolite = new BlockCobblestoneRhyolite();
 	public static Block cobblestoneRockSalt = new BlockCobblestoneRockSalt();
+	public static Block cobblestoneSchist = new BlockCobblestoneSchist();
 	public static Block bricksAndesite = new BlockBricksAndesite();
 	public static Block bricksBasalt = new BlockBricksBasalt();
 	public static Block bricksChalk = new BlockBricksChalk();
@@ -118,6 +123,7 @@ public class ModBlocks {
 	public static Block bricksQuartzite = new BlockBricksQuartzite();
 	public static Block bricksRhyolite = new BlockBricksRhyolite();
 	public static Block bricksRockSalt = new BlockBricksRockSalt();
+	public static Block bricksSchist = new BlockBricksSchist();
 	public static void init()
 	{
 		//Creates block's technical name
@@ -141,6 +147,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(stoneQuartzite);
 		RegisterHelper.registerBlock(stoneRhyolite);
 		RegisterHelper.registerBlock(stoneRockSalt);
+		RegisterHelper.registerBlock(stoneSchist);
 		RegisterHelper.registerBlock(cobblestoneAndesite);
 		RegisterHelper.registerBlock(cobblestoneBasalt);
 		RegisterHelper.registerBlock(cobblestoneChalk);
@@ -159,6 +166,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(cobblestoneQuartzite);
 		RegisterHelper.registerBlock(cobblestoneRhyolite);
 		RegisterHelper.registerBlock(cobblestoneRockSalt);
+		RegisterHelper.registerBlock(cobblestoneSchist);
 		RegisterHelper.registerBlock(bricksAndesite);
 		RegisterHelper.registerBlock(bricksBasalt);
 		RegisterHelper.registerBlock(bricksChalk);
@@ -177,5 +185,6 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(bricksQuartzite);
 		RegisterHelper.registerBlock(bricksRhyolite);
 		RegisterHelper.registerBlock(bricksRockSalt);
+		RegisterHelper.registerBlock(bricksSchist);
 	}
 }
