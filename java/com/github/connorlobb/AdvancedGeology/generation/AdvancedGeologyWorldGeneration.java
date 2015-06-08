@@ -40,7 +40,7 @@ public class AdvancedGeologyWorldGeneration implements IWorldGenerator {
 		addOreSpawn(ModBlocks.stoneConglomerate, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
 		addOreSpawn(ModBlocks.stoneDolomite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
 		addOreSpawn(ModBlocks.stoneLimestone, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
-		//Rock Salt
+		addOreSpawn(ModBlocks.stoneRockSalt, world, random, x, z, 16, 16, 40 + random.nextInt(20), 10, 60, 128);
 		//Shale
 		//Metamorphic
 		addOreSpawn(ModBlocks.stoneGneiss, world, random, x, z, 16, 16, 40 + random.nextInt(20), 15, 30, 128);
