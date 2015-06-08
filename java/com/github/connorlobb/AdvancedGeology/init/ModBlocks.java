@@ -22,6 +22,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksRhyolite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksRockSalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksSchist;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksShale;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockBricksSlate;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneAndesite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneBasalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneChalk;
@@ -42,6 +43,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneRhyolite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneRockSalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneSchist;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneShale;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockCobblestoneSlate;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilAnalyzer;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockFossilOre;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneAndesite;
@@ -64,6 +66,7 @@ import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneRhyolite;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneRockSalt;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneSchist;
 import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneShale;
+import com.github.connorlobb.AdvancedGeology.blocks.BlockStoneSlate;
 import com.github.connorlobb.AdvancedGeology.help.RegisterHelper;
 
 public class ModBlocks {
@@ -90,6 +93,7 @@ public class ModBlocks {
 	public static Block stoneRockSalt = new BlockStoneRockSalt();
 	public static Block stoneSchist = new BlockStoneSchist();
 	public static Block stoneShale = new BlockStoneShale();
+	public static Block stoneSlate = new BlockStoneSlate();
 	public static Block cobblestoneAndesite = new BlockCobblestoneAndesite();
 	public static Block cobblestoneBasalt = new BlockCobblestoneBasalt();
 	public static Block cobblestoneChalk = new BlockCobblestoneChalk();
@@ -110,6 +114,7 @@ public class ModBlocks {
 	public static Block cobblestoneRockSalt = new BlockCobblestoneRockSalt();
 	public static Block cobblestoneSchist = new BlockCobblestoneSchist();
 	public static Block cobblestoneShale = new BlockCobblestoneShale();
+	public static Block cobblestoneSlate = new BlockCobblestoneSlate();
 	public static Block bricksAndesite = new BlockBricksAndesite();
 	public static Block bricksBasalt = new BlockBricksBasalt();
 	public static Block bricksChalk = new BlockBricksChalk();
@@ -130,6 +135,7 @@ public class ModBlocks {
 	public static Block bricksRockSalt = new BlockBricksRockSalt();
 	public static Block bricksSchist = new BlockBricksSchist();
 	public static Block bricksShale = new BlockBricksShale();
+	public static Block bricksSlate = new BlockBricksSlate();
 	public static void init()
 	{
 		//Creates block's technical name
@@ -155,6 +161,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(stoneRockSalt);
 		RegisterHelper.registerBlock(stoneSchist);
 		RegisterHelper.registerBlock(stoneShale);
+		RegisterHelper.registerBlock(stoneSlate);
 		RegisterHelper.registerBlock(cobblestoneAndesite);
 		RegisterHelper.registerBlock(cobblestoneBasalt);
 		RegisterHelper.registerBlock(cobblestoneChalk);
@@ -175,6 +182,7 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(cobblestoneRockSalt);
 		RegisterHelper.registerBlock(cobblestoneSchist);
 		RegisterHelper.registerBlock(cobblestoneShale);
+		RegisterHelper.registerBlock(cobblestoneSlate);
 		RegisterHelper.registerBlock(bricksAndesite);
 		RegisterHelper.registerBlock(bricksBasalt);
 		RegisterHelper.registerBlock(bricksChalk);
@@ -195,5 +203,6 @@ public class ModBlocks {
 		RegisterHelper.registerBlock(bricksRockSalt);
 		RegisterHelper.registerBlock(bricksSchist);
 		RegisterHelper.registerBlock(bricksShale);
+		RegisterHelper.registerBlock(bricksSlate);
 	}
 }
