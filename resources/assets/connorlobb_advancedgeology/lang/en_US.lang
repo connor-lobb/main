@@ -65,6 +65,11 @@ tile.bricksShale.name=Shale Bricks
 tile.bricksSlate.name=Slate Bricks
 
 item.fossil.name=Fossil
+item.andesitePickaxe.name=Andesite Pickaxe
+item.andesiteSword.name=Andesite Sword
+item.andesiteAxe.name=Andesite Axe
+item.andesiteShovel.name=Andesite Shovel
+item.andesiteHoe.name=Andesite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

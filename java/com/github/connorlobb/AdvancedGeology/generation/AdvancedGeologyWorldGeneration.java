@@ -58,14 +58,14 @@ public class AdvancedGeologyWorldGeneration implements IWorldGenerator {
 		addOreSpawn(ModBlocks.stoneGranite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
 		addOreSpawn(ModBlocks.stoneRhyolite, world, random, x, z, 16, 16, 40 + random.nextInt(20), 20, 1, 128);
 		//Vanilla Stuff
-		addOreSpawn(Blocks.coal_ore, world, random, x, z, 16, 16, 10 + random.nextInt(10), 15, 1, 128);
-		addOreSpawn(Blocks.diamond_ore, world, random, x, z, 16, 16, 3 + random.nextInt(5), 1, 1, 16);
-		addOreSpawn(Blocks.gold_ore, world, random, x, z, 16, 16, 4 + random.nextInt(4), 2, 1, 32);
-		addOreSpawn(Blocks.iron_ore, world, random, x, z, 16, 16, 4 + random.nextInt(6), 15, 1, 63);
-		addOreSpawn(Blocks.lapis_ore, world, random, x, z, 16, 16, 2 + random.nextInt(6), 3, 13, 16);
-		addOreSpawn(Blocks.redstone_ore, world, random, x, z, 16, 16, 4 + random.nextInt(4), 4, 1, 16);
-		addOreSpawn(Blocks.dirt, world, random, x, z, 16, 16, 32 + random.nextInt(40), 5, 1, 128);
-		addOreSpawn(Blocks.gravel, world, random, x, z, 16, 16, 32 + random.nextInt(40), 5, 1, 128);
+		addOreSpawn(Blocks.coal_ore, world, random, x, z, 16, 16, 10 + random.nextInt(10), 30, 1, 128);
+		addOreSpawn(Blocks.diamond_ore, world, random, x, z, 16, 16, 3 + random.nextInt(5), 2, 1, 16);
+		addOreSpawn(Blocks.gold_ore, world, random, x, z, 16, 16, 4 + random.nextInt(4), 4, 1, 32);
+		addOreSpawn(Blocks.iron_ore, world, random, x, z, 16, 16, 4 + random.nextInt(6), 30, 1, 63);
+		addOreSpawn(Blocks.lapis_ore, world, random, x, z, 16, 16, 2 + random.nextInt(6), 6, 13, 16);
+		addOreSpawn(Blocks.redstone_ore, world, random, x, z, 16, 16, 4 + random.nextInt(4), 8, 1, 16);
+		addOreSpawn(Blocks.dirt, world, random, x, z, 16, 16, 32 + random.nextInt(40), 10, 1, 128);
+		addOreSpawn(Blocks.gravel, world, random, x, z, 16, 16, 32 + random.nextInt(40), 10, 1, 128);
 		//Ore
 		addOreSpawn(ModBlocks.fossilOre, world, random, x, z, 16, 16, 2 + random.nextInt(6), 8, 1, 60);
 	}
