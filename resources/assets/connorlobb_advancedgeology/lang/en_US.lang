@@ -70,6 +70,11 @@ item.andesiteSword.name=Andesite Sword
 item.andesiteAxe.name=Andesite Axe
 item.andesiteShovel.name=Andesite Shovel
 item.andesiteHoe.name=Andesite Hoe
+item.basaltPickaxe.name=Basalt Pickaxe
+item.basaltSword.name=Basalt Sword
+item.basaltAxe.name=Basalt Axe
+item.basaltShovel.name=Basalt Shovel
+item.basaltHoe.name=Basalt Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
