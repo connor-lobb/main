@@ -13,8 +13,9 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
 	//Defines tool stats
-	public static Item.ToolMaterial ANDESITE = EnumHelper.addToolMaterial("ANDESITE", 1, 232, 2.6F, 2.6F, 6);
-	public static Item.ToolMaterial BASALT = EnumHelper.addToolMaterial("BASALT", 1, 232, 2.6F, 2.6F, 6);
+	public static Item.ToolMaterial ANDESITE = EnumHelper.addToolMaterial("ANDESITE", 1, 232, 2.9F, 2.6F, 6);
+	public static Item.ToolMaterial BASALT = EnumHelper.addToolMaterial("BASALT", 1, 232, 2.9F, 2.6F, 6);
+	public static Item.ToolMaterial CHALK = EnumHelper.addToolMaterial("CHALK", 1, 172, 2.3F, 2.3F, 9);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -27,6 +28,11 @@ public class ModItems {
 	public static Item basaltAxe = new AdvancedGeologyAxe(BASALT).setUnlocalizedName("basaltAxe");
 	public static Item basaltShovel = new AdvancedGeologyShovel(BASALT).setUnlocalizedName("basaltShovel");
 	public static Item basaltHoe = new AdvancedGeologyHoe(BASALT).setUnlocalizedName("basaltHoe");
+	public static Item chalkPickaxe = new AdvancedGeologyPickaxe(CHALK).setUnlocalizedName("chalkPickaxe");
+	public static Item chalkSword = new AdvancedGeologySword(CHALK).setUnlocalizedName("chalkSword");
+	public static Item chalkAxe = new AdvancedGeologyAxe(CHALK).setUnlocalizedName("chalkAxe");
+	public static Item chalkShovel = new AdvancedGeologyShovel(CHALK).setUnlocalizedName("chalkShovel");
+	public static Item chalkHoe = new AdvancedGeologyHoe(CHALK).setUnlocalizedName("chalkHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -41,6 +47,11 @@ public class ModItems {
 		RegisterHelper.registerItem(basaltAxe);
 		RegisterHelper.registerItem(basaltShovel);
 		RegisterHelper.registerItem(basaltHoe);
+		RegisterHelper.registerItem(chalkPickaxe);
+		RegisterHelper.registerItem(chalkSword);
+		RegisterHelper.registerItem(chalkAxe);
+		RegisterHelper.registerItem(chalkShovel);
+		RegisterHelper.registerItem(chalkHoe);
 	}
 
 }

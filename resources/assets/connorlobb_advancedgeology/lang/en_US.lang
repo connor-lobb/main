@@ -75,6 +75,11 @@ item.basaltSword.name=Basalt Sword
 item.basaltAxe.name=Basalt Axe
 item.basaltShovel.name=Basalt Shovel
 item.basaltHoe.name=Basalt Hoe
+item.chalkPickaxe.name=Chalk Pickaxe
+item.chalkSword.name=Chalk Sword
+item.chalkAxe.name=Chalk Axe
+item.chalkShovel.name=Chalk Shovel
+item.chalkHoe.name=Chalk Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
