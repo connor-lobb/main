@@ -90,6 +90,11 @@ item.claystoneSword.name=Claystone Sword
 item.claystoneAxe.name=Claystone Axe
 item.claystoneShovel.name=Claystone Shovel
 item.claystoneHoe.name=Claystone Hoe
+item.conglomeratePickaxe.name=Conglomerate Pickaxe
+item.conglomerateSword.name=Conglomerate Sword
+item.conglomerateAxe.name=Conglomerate Axe
+item.conglomerateShovel.name=Conglomerate Shovel
+item.conglomerateHoe.name=Conglomerate Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

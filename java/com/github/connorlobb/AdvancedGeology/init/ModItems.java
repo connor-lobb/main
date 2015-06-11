@@ -18,6 +18,7 @@ public class ModItems {
 	public static Item.ToolMaterial CHALK = EnumHelper.addToolMaterial("CHALK", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial CHERT = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial CLAYSTONE = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
+	public static Item.ToolMaterial CONGLOMERATE = EnumHelper.addToolMaterial("CONGLOMERATE", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -45,6 +46,11 @@ public class ModItems {
 	public static Item claystoneAxe = new AdvancedGeologyAxe(CLAYSTONE).setUnlocalizedName("claystoneAxe");
 	public static Item claystoneShovel = new AdvancedGeologyShovel(CLAYSTONE).setUnlocalizedName("claystoneShovel");
 	public static Item claystoneHoe = new AdvancedGeologyHoe(CLAYSTONE).setUnlocalizedName("claystoneHoe");
+	public static Item conglomeratePickaxe = new AdvancedGeologyPickaxe(CONGLOMERATE).setUnlocalizedName("conglomeratePickaxe");
+	public static Item conglomerateSword = new AdvancedGeologySword(CONGLOMERATE).setUnlocalizedName("conglomerateSword");
+	public static Item conglomerateAxe = new AdvancedGeologyAxe(CONGLOMERATE).setUnlocalizedName("conglomerateAxe");
+	public static Item conglomerateShovel = new AdvancedGeologyShovel(CONGLOMERATE).setUnlocalizedName("conglomerateShovel");
+	public static Item conglomerateHoe = new AdvancedGeologyHoe(CONGLOMERATE).setUnlocalizedName("conglomerateHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -74,6 +80,11 @@ public class ModItems {
 		RegisterHelper.registerItem(claystoneAxe);
 		RegisterHelper.registerItem(claystoneShovel);
 		RegisterHelper.registerItem(claystoneHoe);
+		RegisterHelper.registerItem(conglomeratePickaxe);
+		RegisterHelper.registerItem(conglomerateSword);
+		RegisterHelper.registerItem(conglomerateAxe);
+		RegisterHelper.registerItem(conglomerateShovel);
+		RegisterHelper.registerItem(conglomerateHoe);
 	}
 
 }
