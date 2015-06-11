@@ -95,6 +95,11 @@ item.conglomerateSword.name=Conglomerate Sword
 item.conglomerateAxe.name=Conglomerate Axe
 item.conglomerateShovel.name=Conglomerate Shovel
 item.conglomerateHoe.name=Conglomerate Hoe
+item.dacitePickaxe.name=Dacite Pickaxe
+item.daciteSword.name=Dacite Sword
+item.daciteAxe.name=Dacite Axe
+item.daciteShovel.name=Dacite Shovel
+item.daciteHoe.name=Dacite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

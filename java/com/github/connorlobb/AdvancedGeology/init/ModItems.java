@@ -19,6 +19,7 @@ public class ModItems {
 	public static Item.ToolMaterial CHERT = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial CLAYSTONE = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial CONGLOMERATE = EnumHelper.addToolMaterial("CONGLOMERATE", 1, 172, 2.3F, 2.3F, 10);
+	public static Item.ToolMaterial DACITE = EnumHelper.addToolMaterial("DACITE", 1, 232, 2.9F, 2.6F, 6);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -51,6 +52,11 @@ public class ModItems {
 	public static Item conglomerateAxe = new AdvancedGeologyAxe(CONGLOMERATE).setUnlocalizedName("conglomerateAxe");
 	public static Item conglomerateShovel = new AdvancedGeologyShovel(CONGLOMERATE).setUnlocalizedName("conglomerateShovel");
 	public static Item conglomerateHoe = new AdvancedGeologyHoe(CONGLOMERATE).setUnlocalizedName("conglomerateHoe");
+	public static Item dacitePickaxe = new AdvancedGeologyPickaxe(DACITE).setUnlocalizedName("dacitePickaxe");
+	public static Item daciteSword = new AdvancedGeologySword(DACITE).setUnlocalizedName("daciteSword");
+	public static Item daciteAxe = new AdvancedGeologyAxe(DACITE).setUnlocalizedName("daciteAxe");
+	public static Item daciteShovel = new AdvancedGeologyShovel(DACITE).setUnlocalizedName("daciteShovel");
+	public static Item daciteHoe = new AdvancedGeologyHoe(DACITE).setUnlocalizedName("daciteHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -85,6 +91,11 @@ public class ModItems {
 		RegisterHelper.registerItem(conglomerateAxe);
 		RegisterHelper.registerItem(conglomerateShovel);
 		RegisterHelper.registerItem(conglomerateHoe);
+		RegisterHelper.registerItem(dacitePickaxe);
+		RegisterHelper.registerItem(daciteSword);
+		RegisterHelper.registerItem(daciteAxe);
+		RegisterHelper.registerItem(daciteShovel);
+		RegisterHelper.registerItem(daciteHoe);
 	}
 
 }
