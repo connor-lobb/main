@@ -85,6 +85,11 @@ item.chertSword.name=Chert Sword
 item.chertAxe.name=Chert Axe
 item.chertShovel.name=Chert Shovel
 item.chertHoe.name=Chert Hoe
+item.claystonePickaxe.name=Claystone Pickaxe
+item.claystoneSword.name=Claystone Sword
+item.claystoneAxe.name=Claystone Axe
+item.claystoneShovel.name=Claystone Shovel
+item.claystoneHoe.name=Claystone Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

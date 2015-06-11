@@ -17,6 +17,7 @@ public class ModItems {
 	public static Item.ToolMaterial BASALT = EnumHelper.addToolMaterial("BASALT", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial CHALK = EnumHelper.addToolMaterial("CHALK", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial CHERT = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
+	public static Item.ToolMaterial CLAYSTONE = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -39,6 +40,11 @@ public class ModItems {
 	public static Item chertAxe = new AdvancedGeologyAxe(CHERT).setUnlocalizedName("chertAxe");
 	public static Item chertShovel = new AdvancedGeologyShovel(CHERT).setUnlocalizedName("chertShovel");
 	public static Item chertHoe = new AdvancedGeologyHoe(CHERT).setUnlocalizedName("chertHoe");
+	public static Item claystonePickaxe = new AdvancedGeologyPickaxe(CLAYSTONE).setUnlocalizedName("claystonePickaxe");
+	public static Item claystoneSword = new AdvancedGeologySword(CLAYSTONE).setUnlocalizedName("claystoneSword");
+	public static Item claystoneAxe = new AdvancedGeologyAxe(CLAYSTONE).setUnlocalizedName("claystoneAxe");
+	public static Item claystoneShovel = new AdvancedGeologyShovel(CLAYSTONE).setUnlocalizedName("claystoneShovel");
+	public static Item claystoneHoe = new AdvancedGeologyHoe(CLAYSTONE).setUnlocalizedName("claystoneHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -63,6 +69,11 @@ public class ModItems {
 		RegisterHelper.registerItem(chertAxe);
 		RegisterHelper.registerItem(chertShovel);
 		RegisterHelper.registerItem(chertHoe);
+		RegisterHelper.registerItem(claystonePickaxe);
+		RegisterHelper.registerItem(claystoneSword);
+		RegisterHelper.registerItem(claystoneAxe);
+		RegisterHelper.registerItem(claystoneShovel);
+		RegisterHelper.registerItem(claystoneHoe);
 	}
 
 }
