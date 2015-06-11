@@ -80,6 +80,11 @@ item.chalkSword.name=Chalk Sword
 item.chalkAxe.name=Chalk Axe
 item.chalkShovel.name=Chalk Shovel
 item.chalkHoe.name=Chalk Hoe
+item.chertPickaxe.name=Chert Pickaxe
+item.chertSword.name=Chert Sword
+item.chertAxe.name=Chert Axe
+item.chertShovel.name=Chert Shovel
+item.chertHoe.name=Chert Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

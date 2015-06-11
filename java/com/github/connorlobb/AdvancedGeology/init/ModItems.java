@@ -15,7 +15,8 @@ public class ModItems {
 	//Defines tool stats
 	public static Item.ToolMaterial ANDESITE = EnumHelper.addToolMaterial("ANDESITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial BASALT = EnumHelper.addToolMaterial("BASALT", 1, 232, 2.9F, 2.6F, 6);
-	public static Item.ToolMaterial CHALK = EnumHelper.addToolMaterial("CHALK", 1, 172, 2.3F, 2.3F, 9);
+	public static Item.ToolMaterial CHALK = EnumHelper.addToolMaterial("CHALK", 1, 172, 2.3F, 2.3F, 10);
+	public static Item.ToolMaterial CHERT = EnumHelper.addToolMaterial("CHERT", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -33,6 +34,11 @@ public class ModItems {
 	public static Item chalkAxe = new AdvancedGeologyAxe(CHALK).setUnlocalizedName("chalkAxe");
 	public static Item chalkShovel = new AdvancedGeologyShovel(CHALK).setUnlocalizedName("chalkShovel");
 	public static Item chalkHoe = new AdvancedGeologyHoe(CHALK).setUnlocalizedName("chalkHoe");
+	public static Item chertPickaxe = new AdvancedGeologyPickaxe(CHERT).setUnlocalizedName("chertPickaxe");
+	public static Item chertSword = new AdvancedGeologySword(CHERT).setUnlocalizedName("chertSword");
+	public static Item chertAxe = new AdvancedGeologyAxe(CHERT).setUnlocalizedName("chertAxe");
+	public static Item chertShovel = new AdvancedGeologyShovel(CHERT).setUnlocalizedName("chertShovel");
+	public static Item chertHoe = new AdvancedGeologyHoe(CHERT).setUnlocalizedName("chertHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -52,6 +58,11 @@ public class ModItems {
 		RegisterHelper.registerItem(chalkAxe);
 		RegisterHelper.registerItem(chalkShovel);
 		RegisterHelper.registerItem(chalkHoe);
+		RegisterHelper.registerItem(chertPickaxe);
+		RegisterHelper.registerItem(chertSword);
+		RegisterHelper.registerItem(chertAxe);
+		RegisterHelper.registerItem(chertShovel);
+		RegisterHelper.registerItem(chertHoe);
 	}
 
 }
