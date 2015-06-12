@@ -105,6 +105,11 @@ item.dioriteSword.name=Diorite Sword
 item.dioriteAxe.name=Diorite Axe
 item.dioriteShovel.name=Diorite Shovel
 item.dioriteHoe.name=Diorite Hoe
+item.dolomitePickaxe.name=Dolomite Pickaxe
+item.dolomiteSword.name=Dolomite Sword
+item.dolomiteAxe.name=Dolomite Axe
+item.dolomiteShovel.name=Dolomite Shovel
+item.dolomiteHoe.name=Dolomite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

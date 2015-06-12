@@ -21,6 +21,7 @@ public class ModItems {
 	public static Item.ToolMaterial CONGLOMERATE = EnumHelper.addToolMaterial("CONGLOMERATE", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial DACITE = EnumHelper.addToolMaterial("DACITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial DIORITE = EnumHelper.addToolMaterial("DIORITE", 1, 232, 2.9F, 2.6F, 6);
+	public static Item.ToolMaterial DOLOMITE = EnumHelper.addToolMaterial("DOLOMITE", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -63,6 +64,11 @@ public class ModItems {
 	public static Item dioriteAxe = new AdvancedGeologyAxe(DIORITE).setUnlocalizedName("dioriteAxe");
 	public static Item dioriteShovel = new AdvancedGeologyShovel(DIORITE).setUnlocalizedName("dioriteShovel");
 	public static Item dioriteHoe = new AdvancedGeologyHoe(DIORITE).setUnlocalizedName("dioriteHoe");
+	public static Item dolomitePickaxe = new AdvancedGeologyPickaxe(DOLOMITE).setUnlocalizedName("dolomitePickaxe");
+	public static Item dolomiteSword = new AdvancedGeologySword(DOLOMITE).setUnlocalizedName("dolomiteSword");
+	public static Item dolomiteAxe = new AdvancedGeologyAxe(DOLOMITE).setUnlocalizedName("dolomiteAxe");
+	public static Item dolomiteShovel = new AdvancedGeologyShovel(DOLOMITE).setUnlocalizedName("dolomiteShovel");
+	public static Item dolomiteHoe = new AdvancedGeologyHoe(DOLOMITE).setUnlocalizedName("dolomiteHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -107,6 +113,11 @@ public class ModItems {
 		RegisterHelper.registerItem(dioriteAxe);
 		RegisterHelper.registerItem(dioriteShovel);
 		RegisterHelper.registerItem(dioriteHoe);
+		RegisterHelper.registerItem(dolomitePickaxe);
+		RegisterHelper.registerItem(dolomiteSword);
+		RegisterHelper.registerItem(dolomiteAxe);
+		RegisterHelper.registerItem(dolomiteShovel);
+		RegisterHelper.registerItem(dolomiteHoe);
 	}
 
 }
