@@ -130,6 +130,11 @@ item.limestoneSword.name=Limestone Sword
 item.limestoneAxe.name=Limestone Axe
 item.limestoneShovel.name=Limestone Shovel
 item.limestoneHoe.name=Limestone Hoe
+item.marblePickaxe.name=Marble Pickaxe
+item.marbleSword.name=Marble Sword
+item.marbleAxe.name=Marble Axe
+item.marbleShovel.name=Marble Shovel
+item.marbleHoe.name=Marble Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
