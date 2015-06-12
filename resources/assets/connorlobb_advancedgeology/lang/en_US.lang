@@ -120,6 +120,11 @@ item.gneissSword.name=Gneiss Sword
 item.gneissAxe.name=Gneiss Axe
 item.gneissShovel.name=Gneiss Shovel
 item.gneissHoe.name=Gneiss Hoe
+item.granitePickaxe.name=Granite Pickaxe
+item.graniteSword.name=Granite Sword
+item.graniteAxe.name=Granite Axe
+item.graniteShovel.name=Granite Shovel
+item.graniteHoe.name=Granite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
