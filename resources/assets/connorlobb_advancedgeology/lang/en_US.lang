@@ -115,6 +115,11 @@ item.gabbroSword.name=Gabbro Sword
 item.gabbroAxe.name=Gabbro Axe
 item.gabbroShovel.name=Gabbro Shovel
 item.gabbroHoe.name=Gabbro Hoe
+item.gneissPickaxe.name=Gneiss Pickaxe
+item.gneissSword.name=Gneiss Sword
+item.gneissAxe.name=Gneiss Axe
+item.gneissShovel.name=Gneiss Shovel
+item.gneissHoe.name=Gneiss Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

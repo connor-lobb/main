@@ -23,6 +23,7 @@ public class ModItems {
 	public static Item.ToolMaterial DIORITE = EnumHelper.addToolMaterial("DIORITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial DOLOMITE = EnumHelper.addToolMaterial("DOLOMITE", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial GABBRO = EnumHelper.addToolMaterial("GABBRO", 1, 232, 2.9F, 2.6F, 6);
+	public static Item.ToolMaterial GNEISS = EnumHelper.addToolMaterial("GNEISS", 1, 202, 2.6F, 2.9F, 8);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -75,6 +76,11 @@ public class ModItems {
 	public static Item gabbroAxe = new AdvancedGeologyAxe(GABBRO).setUnlocalizedName("gabbroAxe");
 	public static Item gabbroShovel = new AdvancedGeologyShovel(GABBRO).setUnlocalizedName("gabbroShovel");
 	public static Item gabbroHoe = new AdvancedGeologyHoe(GABBRO).setUnlocalizedName("gabbroHoe");
+	public static Item gneissPickaxe = new AdvancedGeologyPickaxe(GNEISS).setUnlocalizedName("gneissPickaxe");
+	public static Item gneissSword = new AdvancedGeologySword(GNEISS).setUnlocalizedName("gneissSword");
+	public static Item gneissAxe = new AdvancedGeologyAxe(GNEISS).setUnlocalizedName("gneissAxe");
+	public static Item gneissShovel = new AdvancedGeologyShovel(GNEISS).setUnlocalizedName("gneissShovel");
+	public static Item gneissHoe = new AdvancedGeologyHoe(GNEISS).setUnlocalizedName("gneissHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -129,6 +135,11 @@ public class ModItems {
 		RegisterHelper.registerItem(gabbroAxe);
 		RegisterHelper.registerItem(gabbroShovel);
 		RegisterHelper.registerItem(gabbroHoe);
+		RegisterHelper.registerItem(gneissPickaxe);
+		RegisterHelper.registerItem(gneissSword);
+		RegisterHelper.registerItem(gneissAxe);
+		RegisterHelper.registerItem(gneissShovel);
+		RegisterHelper.registerItem(gneissHoe);
 	}
 
 }
