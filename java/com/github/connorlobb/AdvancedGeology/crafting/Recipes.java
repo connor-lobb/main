@@ -88,7 +88,7 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.daciteHoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneDacite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dioriteHoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneDiorite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dolomiteHoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneDolomite, 'B', Items.stick});
-		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_hoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.gabbroHoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_hoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneGneiss, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_hoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneGranite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_hoe), new Object[] {"AA", " B", " B", 'A', ModBlocks.cobblestoneLimestone, 'B', Items.stick});
@@ -132,7 +132,7 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.daciteAxe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneDacite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dioriteAxe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneDiorite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dolomiteAxe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneDolomite, 'B', Items.stick});
-		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_axe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.gabbroAxe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_axe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneGneiss, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_axe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneGranite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_axe), new Object[] {"AA", "AB", " B", 'A', ModBlocks.cobblestoneLimestone, 'B', Items.stick});
@@ -154,7 +154,7 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.daciteShovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneDacite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dioriteShovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneDiorite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dolomiteShovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneDolomite, 'B', Items.stick});
-		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_shovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.gabbroShovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_shovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneGneiss, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_shovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneGranite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_shovel), new Object[] {"A", "B", "B", 'A', ModBlocks.cobblestoneLimestone, 'B', Items.stick});
@@ -198,7 +198,7 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.daciteSword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneDacite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dioriteSword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneDiorite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dolomiteSword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneDolomite, 'B', Items.stick});
-		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_sword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.gabbroSword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_sword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneGneiss, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_sword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneGranite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_sword), new Object[] {"A", "A", "B", 'A', ModBlocks.cobblestoneLimestone, 'B', Items.stick});
@@ -286,7 +286,7 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dacitePickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneDacite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dioritePickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneDiorite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dolomitePickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneDolomite, 'B', Items.stick});
-		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_pickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.gabbroPickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneGabbro, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_pickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneGneiss, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_pickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneGranite, 'B', Items.stick});
 		GameRegistry.addShapedRecipe(new ItemStack(Items.stone_pickaxe), new Object[] {"AAA", " B ", " B ", 'A', ModBlocks.cobblestoneLimestone, 'B', Items.stick});

@@ -22,6 +22,7 @@ public class ModItems {
 	public static Item.ToolMaterial DACITE = EnumHelper.addToolMaterial("DACITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial DIORITE = EnumHelper.addToolMaterial("DIORITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial DOLOMITE = EnumHelper.addToolMaterial("DOLOMITE", 1, 172, 2.3F, 2.3F, 10);
+	public static Item.ToolMaterial GABBRO = EnumHelper.addToolMaterial("GABBRO", 1, 232, 2.9F, 2.6F, 6);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -69,6 +70,11 @@ public class ModItems {
 	public static Item dolomiteAxe = new AdvancedGeologyAxe(DOLOMITE).setUnlocalizedName("dolomiteAxe");
 	public static Item dolomiteShovel = new AdvancedGeologyShovel(DOLOMITE).setUnlocalizedName("dolomiteShovel");
 	public static Item dolomiteHoe = new AdvancedGeologyHoe(DOLOMITE).setUnlocalizedName("dolomiteHoe");
+	public static Item gabbroPickaxe = new AdvancedGeologyPickaxe(GABBRO).setUnlocalizedName("gabbroPickaxe");
+	public static Item gabbroSword = new AdvancedGeologySword(GABBRO).setUnlocalizedName("gabbroSword");
+	public static Item gabbroAxe = new AdvancedGeologyAxe(GABBRO).setUnlocalizedName("gabbroAxe");
+	public static Item gabbroShovel = new AdvancedGeologyShovel(GABBRO).setUnlocalizedName("gabbroShovel");
+	public static Item gabbroHoe = new AdvancedGeologyHoe(GABBRO).setUnlocalizedName("gabbroHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -118,6 +124,11 @@ public class ModItems {
 		RegisterHelper.registerItem(dolomiteAxe);
 		RegisterHelper.registerItem(dolomiteShovel);
 		RegisterHelper.registerItem(dolomiteHoe);
+		RegisterHelper.registerItem(gabbroPickaxe);
+		RegisterHelper.registerItem(gabbroSword);
+		RegisterHelper.registerItem(gabbroAxe);
+		RegisterHelper.registerItem(gabbroShovel);
+		RegisterHelper.registerItem(gabbroHoe);
 	}
 
 }
