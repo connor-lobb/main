@@ -100,6 +100,11 @@ item.daciteSword.name=Dacite Sword
 item.daciteAxe.name=Dacite Axe
 item.daciteShovel.name=Dacite Shovel
 item.daciteHoe.name=Dacite Hoe
+item.dioritePickaxe.name=Diorite Pickaxe
+item.dioriteSword.name=Diorite Sword
+item.dioriteAxe.name=Diorite Axe
+item.dioriteShovel.name=Diorite Shovel
+item.dioriteHoe.name=Diorite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
