@@ -125,6 +125,11 @@ item.graniteSword.name=Granite Sword
 item.graniteAxe.name=Granite Axe
 item.graniteShovel.name=Granite Shovel
 item.graniteHoe.name=Granite Hoe
+item.limestonePickaxe.name=Limestone Pickaxe
+item.limestoneSword.name=Limestone Sword
+item.limestoneAxe.name=Limestone Axe
+item.limestoneShovel.name=Limestone Shovel
+item.limestoneHoe.name=Limestone Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

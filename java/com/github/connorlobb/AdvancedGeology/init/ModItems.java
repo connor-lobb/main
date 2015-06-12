@@ -25,6 +25,7 @@ public class ModItems {
 	public static Item.ToolMaterial GABBRO = EnumHelper.addToolMaterial("GABBRO", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial GNEISS = EnumHelper.addToolMaterial("GNEISS", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial GRANITE = EnumHelper.addToolMaterial("GRANITE", 1, 232, 2.9F, 2.6F, 6);
+	public static Item.ToolMaterial LIMESTONE = EnumHelper.addToolMaterial("LIMESTONE", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -87,6 +88,11 @@ public class ModItems {
 	public static Item graniteAxe = new AdvancedGeologyAxe(GRANITE).setUnlocalizedName("graniteAxe");
 	public static Item graniteShovel = new AdvancedGeologyShovel(GRANITE).setUnlocalizedName("graniteShovel");
 	public static Item graniteHoe = new AdvancedGeologyHoe(GRANITE).setUnlocalizedName("graniteHoe");
+	public static Item limestonePickaxe = new AdvancedGeologyPickaxe(LIMESTONE).setUnlocalizedName("limestonePickaxe");
+	public static Item limestoneSword = new AdvancedGeologySword(LIMESTONE).setUnlocalizedName("limestoneSword");
+	public static Item limestoneAxe = new AdvancedGeologyAxe(LIMESTONE).setUnlocalizedName("limestoneAxe");
+	public static Item limestoneShovel = new AdvancedGeologyShovel(LIMESTONE).setUnlocalizedName("limestoneShovel");
+	public static Item limestoneHoe = new AdvancedGeologyHoe(LIMESTONE).setUnlocalizedName("limestoneHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -151,6 +157,11 @@ public class ModItems {
 		RegisterHelper.registerItem(graniteAxe);
 		RegisterHelper.registerItem(graniteShovel);
 		RegisterHelper.registerItem(graniteHoe);
+		RegisterHelper.registerItem(limestonePickaxe);
+		RegisterHelper.registerItem(limestoneSword);
+		RegisterHelper.registerItem(limestoneAxe);
+		RegisterHelper.registerItem(limestoneShovel);
+		RegisterHelper.registerItem(limestoneHoe);
 	}
 
 }
