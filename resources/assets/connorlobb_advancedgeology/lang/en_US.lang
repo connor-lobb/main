@@ -140,6 +140,11 @@ item.phylliteSword.name=Phyllite Sword
 item.phylliteAxe.name=Phyllite Axe
 item.phylliteShovel.name=Phyllite Shovel
 item.phylliteHoe.name=Phyllite Hoe
+item.quartzitePickaxe.name=Quartzite Pickaxe
+item.quartziteSword.name=Quartzite Sword
+item.quartziteAxe.name=Quartzite Axe
+item.quartziteShovel.name=Quartzite Shovel
+item.quartziteHoe.name=Quartzite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

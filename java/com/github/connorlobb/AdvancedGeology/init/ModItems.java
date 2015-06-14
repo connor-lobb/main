@@ -28,6 +28,7 @@ public class ModItems {
 	public static Item.ToolMaterial LIMESTONE = EnumHelper.addToolMaterial("LIMESTONE", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial MARBLE = EnumHelper.addToolMaterial("MARBLE", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial PHYLLITE = EnumHelper.addToolMaterial("PHYLLITE", 1, 202, 2.6F, 2.9F, 8);
+	public static Item.ToolMaterial QUARTZITE = EnumHelper.addToolMaterial("QUARTZITE", 1, 202, 2.6F, 2.9F, 8);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -105,6 +106,11 @@ public class ModItems {
 	public static Item phylliteAxe = new AdvancedGeologyAxe(PHYLLITE).setUnlocalizedName("phylliteAxe");
 	public static Item phylliteShovel = new AdvancedGeologyShovel(PHYLLITE).setUnlocalizedName("phylliteShovel");
 	public static Item phylliteHoe = new AdvancedGeologyHoe(PHYLLITE).setUnlocalizedName("phylliteHoe");
+	public static Item quartzitePickaxe = new AdvancedGeologyPickaxe(QUARTZITE).setUnlocalizedName("quartzitePickaxe");
+	public static Item quartziteSword = new AdvancedGeologySword(QUARTZITE).setUnlocalizedName("quartziteSword");
+	public static Item quartziteAxe = new AdvancedGeologyAxe(QUARTZITE).setUnlocalizedName("quartziteAxe");
+	public static Item quartziteShovel = new AdvancedGeologyShovel(QUARTZITE).setUnlocalizedName("quartziteShovel");
+	public static Item quartziteHoe = new AdvancedGeologyHoe(QUARTZITE).setUnlocalizedName("quartziteHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -184,6 +190,11 @@ public class ModItems {
 		RegisterHelper.registerItem(phylliteAxe);
 		RegisterHelper.registerItem(phylliteShovel);
 		RegisterHelper.registerItem(phylliteHoe);
+		RegisterHelper.registerItem(quartzitePickaxe);
+		RegisterHelper.registerItem(quartziteSword);
+		RegisterHelper.registerItem(quartziteAxe);
+		RegisterHelper.registerItem(quartziteShovel);
+		RegisterHelper.registerItem(quartziteHoe);
 	}
 
 }
