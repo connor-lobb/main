@@ -160,6 +160,11 @@ item.schistSword.name=Schist Sword
 item.schistAxe.name=Schist Axe
 item.schistShovel.name=Schist Shovel
 item.schistHoe.name=Schist Hoe
+item.shalePickaxe.name=Shale Pickaxe
+item.shaleSword.name=Shale Sword
+item.shaleAxe.name=Shale Axe
+item.shaleShovel.name=Shale Shovel
+item.shaleHoe.name=Shale Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

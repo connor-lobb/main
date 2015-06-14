@@ -32,6 +32,7 @@ public class ModItems {
 	public static Item.ToolMaterial RHYOLITE = EnumHelper.addToolMaterial("RHYOLITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial ROCKSALT = EnumHelper.addToolMaterial("ROCKSALT", 1, 172, 2.3F, 2.3F, 10);
 	public static Item.ToolMaterial SCHIST = EnumHelper.addToolMaterial("SCHIST", 1, 202, 2.6F, 2.9F, 8);
+	public static Item.ToolMaterial SHALE = EnumHelper.addToolMaterial("SHALE", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -129,6 +130,11 @@ public class ModItems {
 	public static Item schistAxe = new AdvancedGeologyAxe(SCHIST).setUnlocalizedName("schistAxe");
 	public static Item schistShovel = new AdvancedGeologyShovel(SCHIST).setUnlocalizedName("schistShovel");
 	public static Item schistHoe = new AdvancedGeologyHoe(SCHIST).setUnlocalizedName("schistHoe");
+	public static Item shalePickaxe = new AdvancedGeologyPickaxe(SHALE).setUnlocalizedName("shalePickaxe");
+	public static Item shaleSword = new AdvancedGeologySword(SHALE).setUnlocalizedName("shaleSword");
+	public static Item shaleAxe = new AdvancedGeologyAxe(SHALE).setUnlocalizedName("shaleAxe");
+	public static Item shaleShovel = new AdvancedGeologyShovel(SHALE).setUnlocalizedName("shaleShovel");
+	public static Item shaleHoe = new AdvancedGeologyHoe(SHALE).setUnlocalizedName("shaleHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -228,6 +234,11 @@ public class ModItems {
 		RegisterHelper.registerItem(schistAxe);
 		RegisterHelper.registerItem(schistShovel);
 		RegisterHelper.registerItem(schistHoe);
+		RegisterHelper.registerItem(shalePickaxe);
+		RegisterHelper.registerItem(shaleSword);
+		RegisterHelper.registerItem(shaleAxe);
+		RegisterHelper.registerItem(shaleShovel);
+		RegisterHelper.registerItem(shaleHoe);
 	}
 
 }
