@@ -145,6 +145,11 @@ item.quartziteSword.name=Quartzite Sword
 item.quartziteAxe.name=Quartzite Axe
 item.quartziteShovel.name=Quartzite Shovel
 item.quartziteHoe.name=Quartzite Hoe
+item.rhyolitePickaxe.name=Rhyolite Pickaxe
+item.rhyoliteSword.name=Rhyolite Sword
+item.rhyoliteAxe.name=Rhyolite Axe
+item.rhyoliteShovel.name=Rhyolite Shovel
+item.rhyoliteHoe.name=Rhyolite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

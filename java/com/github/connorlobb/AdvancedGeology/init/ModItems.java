@@ -29,6 +29,7 @@ public class ModItems {
 	public static Item.ToolMaterial MARBLE = EnumHelper.addToolMaterial("MARBLE", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial PHYLLITE = EnumHelper.addToolMaterial("PHYLLITE", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial QUARTZITE = EnumHelper.addToolMaterial("QUARTZITE", 1, 202, 2.6F, 2.9F, 8);
+	public static Item.ToolMaterial RHYOLITE = EnumHelper.addToolMaterial("RHYOLITE", 1, 232, 2.9F, 2.6F, 6);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -111,6 +112,11 @@ public class ModItems {
 	public static Item quartziteAxe = new AdvancedGeologyAxe(QUARTZITE).setUnlocalizedName("quartziteAxe");
 	public static Item quartziteShovel = new AdvancedGeologyShovel(QUARTZITE).setUnlocalizedName("quartziteShovel");
 	public static Item quartziteHoe = new AdvancedGeologyHoe(QUARTZITE).setUnlocalizedName("quartziteHoe");
+	public static Item rhyolitePickaxe = new AdvancedGeologyPickaxe(RHYOLITE).setUnlocalizedName("rhyolitePickaxe");
+	public static Item rhyoliteSword = new AdvancedGeologySword(RHYOLITE).setUnlocalizedName("rhyoliteSword");
+	public static Item rhyoliteAxe = new AdvancedGeologyAxe(RHYOLITE).setUnlocalizedName("rhyoliteAxe");
+	public static Item rhyoliteShovel = new AdvancedGeologyShovel(RHYOLITE).setUnlocalizedName("rhyoliteShovel");
+	public static Item rhyoliteHoe = new AdvancedGeologyHoe(RHYOLITE).setUnlocalizedName("rhyoliteHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -195,6 +201,11 @@ public class ModItems {
 		RegisterHelper.registerItem(quartziteAxe);
 		RegisterHelper.registerItem(quartziteShovel);
 		RegisterHelper.registerItem(quartziteHoe);
+		RegisterHelper.registerItem(rhyolitePickaxe);
+		RegisterHelper.registerItem(rhyoliteSword);
+		RegisterHelper.registerItem(rhyoliteAxe);
+		RegisterHelper.registerItem(rhyoliteShovel);
+		RegisterHelper.registerItem(rhyoliteHoe);
 	}
 
 }
