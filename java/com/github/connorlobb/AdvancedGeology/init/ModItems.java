@@ -31,6 +31,7 @@ public class ModItems {
 	public static Item.ToolMaterial QUARTZITE = EnumHelper.addToolMaterial("QUARTZITE", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial RHYOLITE = EnumHelper.addToolMaterial("RHYOLITE", 1, 232, 2.9F, 2.6F, 6);
 	public static Item.ToolMaterial ROCKSALT = EnumHelper.addToolMaterial("ROCKSALT", 1, 172, 2.3F, 2.3F, 10);
+	public static Item.ToolMaterial SCHIST = EnumHelper.addToolMaterial("SCHIST", 1, 202, 2.6F, 2.9F, 8);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -123,6 +124,11 @@ public class ModItems {
 	public static Item rockSaltAxe = new AdvancedGeologyAxe(ROCKSALT).setUnlocalizedName("rockSaltAxe");
 	public static Item rockSaltShovel = new AdvancedGeologyShovel(ROCKSALT).setUnlocalizedName("rockSaltShovel");
 	public static Item rockSaltHoe = new AdvancedGeologyHoe(ROCKSALT).setUnlocalizedName("rockSaltHoe");
+	public static Item schistPickaxe = new AdvancedGeologyPickaxe(SCHIST).setUnlocalizedName("schistPickaxe");
+	public static Item schistSword = new AdvancedGeologySword(SCHIST).setUnlocalizedName("schistSword");
+	public static Item schistAxe = new AdvancedGeologyAxe(SCHIST).setUnlocalizedName("schistAxe");
+	public static Item schistShovel = new AdvancedGeologyShovel(SCHIST).setUnlocalizedName("schistShovel");
+	public static Item schistHoe = new AdvancedGeologyHoe(SCHIST).setUnlocalizedName("schistHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -217,6 +223,11 @@ public class ModItems {
 		RegisterHelper.registerItem(rockSaltAxe);
 		RegisterHelper.registerItem(rockSaltShovel);
 		RegisterHelper.registerItem(rockSaltHoe);
+		RegisterHelper.registerItem(schistPickaxe);
+		RegisterHelper.registerItem(schistSword);
+		RegisterHelper.registerItem(schistAxe);
+		RegisterHelper.registerItem(schistShovel);
+		RegisterHelper.registerItem(schistHoe);
 	}
 
 }

@@ -155,6 +155,11 @@ item.rockSaltSword.name=Rock Salt Sword
 item.rockSaltAxe.name=Rock Salt Axe
 item.rockSaltShovel.name=Rock Salt Shovel
 item.rockSaltHoe.name=Rock Salt Hoe
+item.schistPickaxe.name=Schist Pickaxe
+item.schistSword.name=Schist Sword
+item.schistAxe.name=Schist Axe
+item.schistShovel.name=Schist Shovel
+item.schistHoe.name=Schist Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
