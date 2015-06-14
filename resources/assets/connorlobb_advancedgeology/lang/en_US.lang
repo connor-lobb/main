@@ -150,6 +150,11 @@ item.rhyoliteSword.name=Rhyolite Sword
 item.rhyoliteAxe.name=Rhyolite Axe
 item.rhyoliteShovel.name=Rhyolite Shovel
 item.rhyoliteHoe.name=Rhyolite Hoe
+item.rockSaltPickaxe.name=Rock Salt Pickaxe
+item.rockSaltSword.name=Rock Salt Sword
+item.rockSaltAxe.name=Rock Salt Axe
+item.rockSaltShovel.name=Rock Salt Shovel
+item.rockSaltHoe.name=Rock Salt Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy

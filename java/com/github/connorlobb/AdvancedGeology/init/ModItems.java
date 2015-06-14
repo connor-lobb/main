@@ -30,6 +30,7 @@ public class ModItems {
 	public static Item.ToolMaterial PHYLLITE = EnumHelper.addToolMaterial("PHYLLITE", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial QUARTZITE = EnumHelper.addToolMaterial("QUARTZITE", 1, 202, 2.6F, 2.9F, 8);
 	public static Item.ToolMaterial RHYOLITE = EnumHelper.addToolMaterial("RHYOLITE", 1, 232, 2.9F, 2.6F, 6);
+	public static Item.ToolMaterial ROCKSALT = EnumHelper.addToolMaterial("ROCKSALT", 1, 172, 2.3F, 2.3F, 10);
 	//Defines item values
 	public static Item fossil = new AdvancedGeologyItem().setUnlocalizedName("fossil");
 	public static Item andesitePickaxe = new AdvancedGeologyPickaxe(ANDESITE).setUnlocalizedName("andesitePickaxe");
@@ -117,6 +118,11 @@ public class ModItems {
 	public static Item rhyoliteAxe = new AdvancedGeologyAxe(RHYOLITE).setUnlocalizedName("rhyoliteAxe");
 	public static Item rhyoliteShovel = new AdvancedGeologyShovel(RHYOLITE).setUnlocalizedName("rhyoliteShovel");
 	public static Item rhyoliteHoe = new AdvancedGeologyHoe(RHYOLITE).setUnlocalizedName("rhyoliteHoe");
+	public static Item rockSaltPickaxe = new AdvancedGeologyPickaxe(ROCKSALT).setUnlocalizedName("rockSaltPickaxe");
+	public static Item rockSaltSword = new AdvancedGeologySword(ROCKSALT).setUnlocalizedName("rockSaltSword");
+	public static Item rockSaltAxe = new AdvancedGeologyAxe(ROCKSALT).setUnlocalizedName("rockSaltAxe");
+	public static Item rockSaltShovel = new AdvancedGeologyShovel(ROCKSALT).setUnlocalizedName("rockSaltShovel");
+	public static Item rockSaltHoe = new AdvancedGeologyHoe(ROCKSALT).setUnlocalizedName("rockSaltHoe");
 	public static void init()
 	{
 		//Creates item's technical name
@@ -206,6 +212,11 @@ public class ModItems {
 		RegisterHelper.registerItem(rhyoliteAxe);
 		RegisterHelper.registerItem(rhyoliteShovel);
 		RegisterHelper.registerItem(rhyoliteHoe);
+		RegisterHelper.registerItem(rockSaltPickaxe);
+		RegisterHelper.registerItem(rockSaltSword);
+		RegisterHelper.registerItem(rockSaltAxe);
+		RegisterHelper.registerItem(rockSaltShovel);
+		RegisterHelper.registerItem(rockSaltHoe);
 	}
 
 }
