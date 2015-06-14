@@ -165,6 +165,11 @@ item.shaleSword.name=Shale Sword
 item.shaleAxe.name=Shale Axe
 item.shaleShovel.name=Shale Shovel
 item.shaleHoe.name=Shale Hoe
+item.slatePickaxe.name=Slate Pickaxe
+item.slateSword.name=Slate Sword
+item.slateAxe.name=Slate Axe
+item.slateShovel.name=Slate Shovel
+item.slateHoe.name=Slate Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
