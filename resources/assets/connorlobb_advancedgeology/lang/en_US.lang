@@ -135,6 +135,11 @@ item.marbleSword.name=Marble Sword
 item.marbleAxe.name=Marble Axe
 item.marbleShovel.name=Marble Shovel
 item.marbleHoe.name=Marble Hoe
+item.phyllitePickaxe.name=Phyllite Pickaxe
+item.phylliteSword.name=Phyllite Sword
+item.phylliteAxe.name=Phyllite Axe
+item.phylliteShovel.name=Phyllite Shovel
+item.phylliteHoe.name=Phyllite Hoe
 
 itemGroup.tabAdvancedPetrology=Advanced Petrology
 itemGroup.tabAdvancedMineralogy=Advanced Mineralogy
